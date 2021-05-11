@@ -5,3 +5,18 @@ body, html{
     background: linear-gradient( 30deg,rgba(238, 174, 202, 1) 0%,rgba(148, 187, 233, 1) 100%);
     overflow: hidden;
 }
+
+#help-button{
+    justify-self: center;
+    align-self: center;
+    border: none;
+    background: transparent;
+    border: 0.37rem solid white;
+    border-radius: 2rem;
+    cursor: pointer;
+    width: 8rem;
+    height: 8rem;
+    transform: translateY(0) scale(1);
+    transition: transform 0.12s ease-out;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}

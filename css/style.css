@@ -42,3 +42,33 @@ body, html{
     transition: stroke-dasharray 0.44s, stroke-dashoffset 0.44s;
     will-change: stroke-dasharray, stroke-dashoffset;
 }
+
+.kf1 #dot {
+	stroke-dasharray: 12.5 190;
+	stroke-dashoffset: 0;
+}
+
+.kf2 #dot {
+	stroke-dasharray: 58 190;
+	stroke-dashoffset: -102;
+}
+
+.kf3 #dot {
+	stroke-dasharray: 12.5 177;
+	stroke-dashoffset: -190;
+}
+
+.kf1 #qmark {
+	stroke-dasharray: 97 207;
+	stroke-dashoffset: -112;
+}
+
+.kf2 #qmark {
+	stroke-dasharray: 58 207;
+	stroke-dashoffset: 0;
+}
+
+.kf3 #qmark {
+	stroke-dasharray: 97 112;
+	stroke-dashoffset: 97;
+}
